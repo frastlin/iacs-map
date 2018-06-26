@@ -1,0 +1,19 @@
+2018-06-26T11:01:36-0700 [-] Loading c:\users\brandon\tests\maps\iacs-map\evennia\evennia\server\portal\portal.py...
+2018-06-26T11:01:38-0700 [-] Loaded.
+2018-06-26T11:01:38-0700 [twisted.application.app.AppLogger#info] twistd 18.4.0 (c:\users\brandon\tests\maps\iacs-map\pyenv\scripts\python.exe 2.7.14) starting up.
+2018-06-26T11:01:38-0700 [twisted.application.app.AppLogger#info] reactor class: twisted.internet.selectreactor.SelectReactor.
+2018-06-26T11:01:38-0700 [-] ServerFactory starting on 4000
+2018-06-26T11:01:38-0700 [-] ServerFactory (WebSocketFactory) starting on 4005
+2018-06-26T11:01:38-0700 [-] Website starting on 4001
+2018-06-26T11:01:39-0700 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 58554) PEER:IPv4Address(TCP, '127.0.0.1', 4006))
+2018-06-26T11:01:42-0700 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 58573) PEER:IPv4Address(TCP, '127.0.0.1', 4006))
+2018-06-26T11:03:16-0700 [evennia.server.webserver.HTTPChannelWithXForwardedFor#info] Timing out client: IPv4Address(TCP, '127.0.0.1', 58747)
+2018-06-26T11:03:16-0700 [evennia.server.webserver.HTTPChannelWithXForwardedFor#info] Timing out client: IPv4Address(TCP, '127.0.0.1', 58746)
+2018-06-26T11:03:16-0700 [evennia.server.webserver.HTTPChannelWithXForwardedFor#info] Timing out client: IPv4Address(TCP, '127.0.0.1', 58748)
+2018-06-26T11:11:20-0700 [-] Received SIGINT, shutting down.
+2018-06-26T11:11:20-0700 [-] (TCP Port 4001 Closed)
+2018-06-26T11:11:20-0700 [-] (TCP Port 4005 Closed)
+2018-06-26T11:11:20-0700 [-] (TCP Port 4000 Closed)
+2018-06-26T11:11:20-0700 [-] Main loop terminated.
+2018-06-26T11:11:20-0700 [-] Server Shut Down.
+2018-06-26T11:11:20-0700 [twisted.application.app.AppLogger#info] Server Shut Down.
