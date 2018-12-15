@@ -1,35 +1,46 @@
-# Welcome to Evennia!
+# Welcome to the mud map created for the IACS 2018 at OCAD!
 
-This is your game directory, set up to let you start with
-your new game right away. An overview of this directory is found here:
-https://github.com/evennia/evennia/wiki/Directory-Overview#the-game-directory
+## Getting started
+1. Install python 2.7 32 bit
+2. Download this repository
+3. Go to the unzipped repository and type: pip install -e evennia
+4. Type: evennia start
 
-You can delete this readme file when you've read it and you can
-re-arrange things in this game-directory to suit your own sense of
-organisation (the only exception is the directory structure of the
-`server/` directory, which Evennia expects). If you change the structure
-you must however also edit/add to your settings file to tell Evennia
-where to look for things.
+### Restarting The Server After It Has Been Shut Down
 
-Your game's main configuration file is found in
-`server/conf/settings.py` (but you don't need to change it to get
-started). If you just created this directory (which means you'll already
-have a `virtualenv` running if you followed the default instructions),
-`cd` to this directory then initialize a new database using
+1. Open Anaconda prompt
+2. Navigate to the folder using Anaconda prompt
+3. Type the following two lines:
+set CONDA_FORCE_32BIT=1    
+conda activate evennia  
+4. Type: evennia start
+5. Visit:  
+http://localhost:4001/webclient/    
 
-    evennia migrate
 
-To start the server, stand in this directory and run
+### Detailed Getting Started
+1. Download python using [Miniconda](https://conda.io/miniconda.html)
+2. Go to the start menu or applications and type: anaconda prompt. An application should show up. If it doesn't, restart your computer.
+3. Once Anaconda prompt is open, type the following lines (hit enter after each one):
+set CONDA_FORCE_32BIT=1  
+conda create --name evennia python=2.7  
+Some text will show and it will ask you if this is what you want. type "y" and hit enter.
+4. Type: conda activate evennia
+5. [Download the zip file of this repository](https://github.com/frastlin/iacs-map/archive/master.zip)
+6. Unzip the file (we'll assume it's on your Desktop) and get the path to the unzipped folder. On windows, press alt+d in Windows explorer and copy that long path. It will look something like: "C:\\Users\\YourName\\Desktop\\iacs-map-master"
+7. Go back to your Anaconda prompt and navigate to the unzipped folder. You type cd by the name of the folders you want to go to. At the end, the: (evennia) C:\\Users\\YourName\\ should match the path you copied. Try typing cd, space, then paste the path you copied and hit enter. If it works, you will see the path change. If it doesn't, you will see an error. If you get the error, try typing the path one folder at a time. It will look like this: cd Desktop, cd iacs-map-evennia.
+8. Once you are in the iacs-map-master folder, queue up about 5-10 minutes of Youtube videos and type: pip install -e evennia
+9. After all those packages finish installing, type: evennia start
+10. Visit the web client at:  
+http://localhost:4001/webclient/  
+and create an account or log in with your account.
 
-    evennia start
+### Troubleshooting
 
-This will start the server, logging output to the console. Make
-sure to create a superuser when asked. By default you can now connect
-to your new game using a MUD client on `localhost`, port `4000`.  You can
-also log into the web client by pointing a browser to
-`http://localhost:4001`.
+The above is very basic, if you need help, read the [Evennia getting started documentation](https://github.com/evennia/evennia/wiki/Getting-Started)
 
-# Getting started
+
+# Getting started With Evennia
 
 From here on you might want to look at one of the beginner tutorials:
 http://github.com/evennia/evennia/wiki/Tutorials.

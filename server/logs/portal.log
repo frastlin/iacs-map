@@ -17,3 +17,77 @@
 2018-06-26T11:11:20-0700 [-] Main loop terminated.
 2018-06-26T11:11:20-0700 [-] Server Shut Down.
 2018-06-26T11:11:20-0700 [twisted.application.app.AppLogger#info] Server Shut Down.
+2018-06-29T10:30:56-0700 [-] Loading c:\users\brandon\tests\maps\iacs-map\evennia\evennia\server\portal\portal.py...
+2018-06-29T10:30:58-0700 [-] Loaded.
+2018-06-29T10:30:58-0700 [twisted.application.app.AppLogger#info] twistd 18.4.0 (c:\users\brandon\tests\maps\iacs-map\pyenv\scripts\python.exe 2.7.14) starting up.
+2018-06-29T10:30:58-0700 [twisted.application.app.AppLogger#info] reactor class: twisted.internet.selectreactor.SelectReactor.
+2018-06-29T10:30:58-0700 [-] ServerFactory starting on 4000
+2018-06-29T10:30:58-0700 [-] ServerFactory (WebSocketFactory) starting on 4005
+2018-06-29T10:30:58-0700 [-] Website starting on 4001
+2018-06-29T10:30:59-0700 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 51367) PEER:IPv4Address(TCP, '127.0.0.1', 4006))
+2018-06-29T10:31:25-0700 [WebSocketClient (WebSocketProtocol),0,127.0.0.1] Starting RFC 6455 conversation
+2018-06-29T10:32:25-0700 [evennia.server.webserver.HTTPChannelWithXForwardedFor#info] Timing out client: IPv4Address(TCP, '127.0.0.1', 51390)
+2018-06-29T14:29:40-0700 [stdout#info] In connectionLost of webclient
+2018-06-30T18:19:11-0700 [-] Received SIGINT, shutting down.
+2018-06-30T18:19:11-0700 [-] (TCP Port 4001 Closed)
+2018-06-30T18:19:11-0700 [-] (TCP Port 4005 Closed)
+2018-06-30T18:19:11-0700 [-] (TCP Port 4000 Closed)
+2018-06-30T18:19:11-0700 [-] Main loop terminated.
+2018-06-30T18:19:11-0700 [-] Server Shut Down.
+2018-06-30T18:19:11-0700 [twisted.application.app.AppLogger#info] Server Shut Down.
+2018-07-03T06:18:41-0700 [-] Loading c:\users\brandon\tests\maps\iacs-map\evennia\evennia\server\portal\portal.py...
+2018-07-03T06:18:43-0700 [-] Loaded.
+2018-07-03T06:18:43-0700 [twisted.application.app.AppLogger#info] twistd 18.4.0 (c:\users\brandon\tests\maps\iacs-map\pyenv\scripts\python.exe 2.7.14) starting up.
+2018-07-03T06:18:43-0700 [twisted.application.app.AppLogger#info] reactor class: twisted.internet.selectreactor.SelectReactor.
+2018-07-03T06:18:43-0700 [-] ServerFactory starting on 4000
+2018-07-03T06:18:43-0700 [-] ServerFactory (WebSocketFactory) starting on 4005
+2018-07-03T06:18:43-0700 [-] Website starting on 4001
+2018-07-03T06:18:44-0700 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 50966) PEER:IPv4Address(TCP, '127.0.0.1', 4006))
+2018-07-03T06:19:02-0700 [WebSocketClient (WebSocketProtocol),0,127.0.0.1] Starting RFC 6455 conversation
+2018-07-03T06:19:08-0700 [stdout#info] In connectionLost of webclient
+2018-07-03T06:20:01-0700 [evennia.server.webserver.HTTPChannelWithXForwardedFor#info] Timing out client: IPv4Address(TCP, '127.0.0.1', 50997)
+2018-07-03T06:20:01-0700 [evennia.server.webserver.HTTPChannelWithXForwardedFor#info] Timing out client: IPv4Address(TCP, '127.0.0.1', 50990)
+2018-07-03T07:11:03-0700 [stdout#info] In connectionLost of webclient
+2018-07-03T07:12:05-0700 [WebSocketClient (WebSocketProtocol),2,127.0.0.1] Starting RFC 6455 conversation
+2018-07-03T07:12:11-0700 [stdout#info] In connectionLost of webclient
+2018-07-03T07:22:33-0700 [stdout#info] In connectionLost of webclient
+2018-07-03T17:20:35-0700 [WebSocketClient (WebSocketProtocol),4,127.0.0.1] Starting RFC 6455 conversation
+2018-07-03T17:20:41-0700 [stdout#info] In connectionLost of webclient
+2018-07-03T17:25:10-0700 [stdout#info] In connectionLost of webclient
+2018-07-03T17:25:10-0700 [stdout#info] In connectionLost of webclient
+2018-07-04T16:47:18-0700 [-] Received SIGINT, shutting down.
+2018-07-04T16:47:18-0700 [-] (TCP Port 4001 Closed)
+2018-07-04T16:47:18-0700 [-] (TCP Port 4000 Closed)
+2018-07-04T16:47:18-0700 [-] (TCP Port 4005 Closed)
+2018-07-04T16:47:18-0700 [-] Main loop terminated.
+2018-07-04T16:47:18-0700 [-] Server Shut Down.
+2018-07-04T16:47:18-0700 [twisted.application.app.AppLogger#info] Server Shut Down.
+2018-12-15T13:00:23-0800 [-] Loading c:\users\brandon\tests\maps\iacs-map\iacs-map\evennia\evennia\server\portal\portal.py...
+2018-12-15T13:00:24-0800 [-] Loaded.
+2018-12-15T13:00:24-0800 [twisted.application.app.AppLogger#info] twistd 18.9.0 (c:\users\brandon\tests\maps\iacs-map\pyenv\scripts\python.exe 2.7.14) starting up.
+2018-12-15T13:00:24-0800 [twisted.application.app.AppLogger#info] reactor class: twisted.internet.selectreactor.SelectReactor.
+2018-12-15T13:00:24-0800 [-] ServerFactory starting on 4000
+2018-12-15T13:00:24-0800 [-] ServerFactory (WebSocketFactory) starting on 4005
+2018-12-15T13:00:24-0800 [-] Website starting on 4001
+2018-12-15T13:00:25-0800 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(type='TCP', host='127.0.0.1', port=57946) PEER:IPv4Address(type='TCP', host='127.0.0.1', port=4006))
+2018-12-15T13:03:32-0800 [WebSocketClient (WebSocketProtocol),0,127.0.0.1] Starting RFC 6455 conversation
+2018-12-15T13:04:31-0800 [evennia.server.webserver.HTTPChannelWithXForwardedFor#info] Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=58592)
+2018-12-15T13:04:31-0800 [evennia.server.webserver.HTTPChannelWithXForwardedFor#info] Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=58589)
+2018-12-15T13:04:32-0800 [evennia.server.webserver.HTTPChannelWithXForwardedFor#info] Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=58636)
+2018-12-15T13:06:05-0800 [WebSocketClient (WebSocketProtocol),0,127.0.0.1] Closing connection: '' (1001)
+2018-12-15T13:06:05-0800 [stdout#info] In connectionLost of webclient
+2018-12-15T13:06:06-0800 [WebSocketClient (WebSocketProtocol),1,127.0.0.1] Starting RFC 6455 conversation
+2018-12-15T13:06:40-0800 [WebSocketClient (WebSocketProtocol),1,127.0.0.1] Closing connection: '' (1001)
+2018-12-15T13:06:40-0800 [stdout#info] In connectionLost of webclient
+2018-12-15T13:06:48-0800 [WebSocketClient (WebSocketProtocol),2,127.0.0.1] Starting RFC 6455 conversation
+2018-12-15T13:07:03-0800 [stdout#info] In connectionLost of webclient
+2018-12-15T13:07:03-0800 [stdout#info] In connectionLost of webclient
+2018-12-15T13:07:40-0800 [evennia.server.webserver.HTTPChannelWithXForwardedFor#info] Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=59186)
+2018-12-15T13:07:48-0800 [evennia.server.webserver.HTTPChannelWithXForwardedFor#info] Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=59343)
+2018-12-15T13:14:33-0800 [-] Received SIGINT, shutting down.
+2018-12-15T13:14:33-0800 [-] (TCP Port 4001 Closed)
+2018-12-15T13:14:33-0800 [-] (TCP Port 4005 Closed)
+2018-12-15T13:14:33-0800 [-] (TCP Port 4000 Closed)
+2018-12-15T13:14:33-0800 [-] Main loop terminated.
+2018-12-15T13:14:33-0800 [-] Server Shut Down.
+2018-12-15T13:14:33-0800 [twisted.application.app.AppLogger#info] Server Shut Down.
